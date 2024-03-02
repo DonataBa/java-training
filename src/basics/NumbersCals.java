@@ -7,18 +7,18 @@ public class NumbersCals {
 		int a = 10;
 		int b = 20;
 		addNumbers(a,b);
-		System.out.println("Multiplication of a and b is equal: "+multiplyNumbers(a,b));
+		System.out.println("Multiplication of "+a+" and "+b+" is "+multiplyNumbers(a,b));
 		
 	}
 	
 	static void printName() {
-		System.out.println("My name is Donata");
+		System.out.println("Calculating sum and multiplying numbers");
 	}
 	
 	
 	static void addNumbers(int a,int b) {
 		int sum = a + b;
-		System.out.println("Sum or number a and b is: "+sum);
+		System.out.println("Sum of "+ a +" and "+b+" is "+sum);
 		
 	}
 	
