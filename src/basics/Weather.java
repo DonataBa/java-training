@@ -8,7 +8,7 @@ public static void main(String[] args) {
 	temp = 14;
 	
 	if (temp < 15) {
-		System.out.println("Wear jacket");
+		System.out.println("It's cold outside, wear jacket");
 	} else if (temp > 28) {
 		System.out.println("It's really hot!");
 	} else {
